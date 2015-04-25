@@ -1,0 +1,29 @@
+﻿Build started 4/24/2015 8:42:19 PM.
+     1>Project "C:\Users\Luu\documents\visual studio 2013\Projects\TextDetection\TextDetection\TextDetection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Tesseract-Build\tesseract-ocr\api" /I"C:\Tesseract-Build\tesseract-ocr\ccmain" /I"C:\Tesseract-Build\tesseract-ocr\ccstruct" /I"C:\Tesseract-Build\tesseract-ocr\ccutil" /I"C:\Tesseract-Build\tesseract-ocr\classify" /I"C:\Tesseract-Build\include\leptonica" /I"C:\Tesseract-Build\include" /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sceneDetectorRun.cpp
+         sceneDetectorRun.cpp
+     1>c:\tesseract-build\include\leptonica\environ.h(446): warning C4005: 'snprintf' : macro redefinition
+                 c:\tesseract-build\tesseract-ocr\ccutil\platform.h(31) : see previous definition of 'snprintf'
+     1>c:\tesseract-build\include\leptonica\pix.h(209): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>c:\tesseract-build\include\leptonica\pix.h(211): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(97): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(124): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(140): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(141): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(142): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(143): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luu\documents\visual studio 2013\projects\textdetection\textdetection\scenedetectorrun.cpp(176): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luu\documents\visual studio 2013\Projects\TextDetection\Debug\TextDetection.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\lib\Debug /LIBPATH:"C:\Tesseract-Build\lib\Win32" /LIBPATH:C:\opencv\build\x86\vc12\lib libtesseract304d.lib liblept171d.lib opencv_ts300d.lib opencv_world300d.lib opencv_text300d.lib opencv_imgproc300d.lib opencv_core300d.lib opencv_ml300d.lib opencv_highgui300d.lib opencv_objdetect300d.lib opencv_videostab300d.lib opencv_video300d.lib opencv_superres300d.lib opencv_optflow300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Luu\documents\visual studio 2013\Projects\TextDetection\Debug\TextDetection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luu\documents\visual studio 2013\Projects\TextDetection\Debug\TextDetection.lib" /MACHINE:X86 Debug\SceneDetectorImp.obj
+         Debug\sceneDetectorRun.obj
+         TextDetection.vcxproj -> C:\Users\Luu\documents\visual studio 2013\Projects\TextDetection\Debug\TextDetection.exe
+     1>Done Building Project "C:\Users\Luu\documents\visual studio 2013\Projects\TextDetection\TextDetection\TextDetection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.14
